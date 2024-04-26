@@ -1,2 +1,2 @@
 # PhonePe-Pulse-Data-Visualization-and-Exploration
-Explore Machine Learning (ML) and Natural Language Processing (NLP) techniques at the intersection for movie sentiment prediction. Dive into text analysis, sentiment modeling, and review techniques.
+Explore insights from PhonePe Pulse data through interactive visualization and exploration tools.
