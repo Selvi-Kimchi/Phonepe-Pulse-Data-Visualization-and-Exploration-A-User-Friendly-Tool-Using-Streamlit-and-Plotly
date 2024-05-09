@@ -22,46 +22,26 @@ Plotly
 # Workflow Diagram
 The following diagram illustrates the workflow of the PhonePe Pulse Data Visualization:
 
-    +----------------+             +---------------------+              +------------------+
-    
-    |  GitHub        |    Clone    |    Data Extraction  |    Store     |    JSON Files    |
-    
-    |  Repository    +------------>+     (Scripting)     +------------->+                  |
-    
-    +----------------+             +---------------------+              +------------------+
-
-    
-                                       |
-
-                                       
-                                       | Data
-                                       
-                                       | Transformation
-                                       
-                                       v
-                                       
-                               +---------------------+
-                                                              
-                               |   Data Processing   |
-                               
-                               |   (Python, Pandas)   |
-                               
-                               +---------------------+
-                                       |
-                                       
-                                       | Insert
-                                       
+    +----------------+             +---------------------+              +------------------+    
+    |  GitHub        |    Clone    |    Data Extraction  |    Store     |    JSON Files    |    
+    |  Repository    +------------>+     (Scripting)     +------------->+                  |    
+    +----------------+             +---------------------+              +------------------+    
+                                       |                                       
+                                       | Data                                       
+                                       | Transformation                                       
+                                       v                                       
+                               +---------------------+                                                              
+                               |   Data Processing   |                              
+                               |   (Python, Pandas)  |                               
+                               +---------------------+                 
+                                       |                                       
+                                       | Insert                                       
                                        | into Database
-                                       v
-                                       
-                               +---------------------+
-                               
-                               |   MySQL Database    |
-                               
-                               |   (mysql-connector) |
-                               
-                               +---------------------+
-                                       |
+                                       v                                   
+                               +---------------------+                               
+                               |   MySQL Database    |                               
+                               |   (mysql-connector) |                               
+                               +---------------------+                                       |
                                        | Fetch Data
                                        | for Dashboard
                                        v
