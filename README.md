@@ -21,6 +21,7 @@ Plotly
 
 # Workflow Diagram
 The following diagram illustrates the workflow of the PhonePe Pulse Data Visualization:
+
     +----------------+             +---------------------+              +------------------+
     
     |  GitHub        |    Clone    |    Data Extraction  |    Store     |    JSON Files    |
@@ -40,8 +41,7 @@ The following diagram illustrates the workflow of the PhonePe Pulse Data Visuali
                                        v
                                        
                                +---------------------+
-
-                               
+                                                              
                                |   Data Processing   |
                                
                                |   (Python, Pandas)   |
