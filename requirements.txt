@@ -1,0 +1,10 @@
+gitpython
+pandas
+mysql-connector-python
+pillow
+streamlit
+plotly
+numpy
+requests
+streamlit-option-menu
+plotly-express
